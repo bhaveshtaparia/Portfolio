@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="/index.css">
+<!-- <script>
+//     function submitContact() {
+//         console.log("working");
+//         alert("working")
+//         fetch("http://localhost:5000/api/v1/contact/create", {
+//                 method: 'POST',
+//                 body: JSON.stringify({
+//                     name: "apple",
+//                     email: "dfd",
+//                     number: 652522,
+//                     reason: "lmcsdm dkf"
+//                 }),
+//                 headers: {
+//                     "Content-type": "application/json;"
+//                 }
+//             }).then(response => response.json()).then(data => {
+//                 alert(data.success);
+//             })
+//             .catch(error => {
+//                 alert(error)
+//                 console.error('Error:', error);
+//             });
+//     }
+// </script> -->
+
+<body>
+    <nav>
+        <li>
+            <ul><a href="#">Home</a></ul>
+            <ul><a href="#education">Education </a></ul>
+            <ul><a href="#skills">Skills </a></ul>
+            <ul><a href="#project">Project </a></ul>
+            <ul><a href="#contact">Contact Us </a></ul>
+        </li>
+    </nav>
+
+    <div id="#" class="bg">
+        <div class="container1">
+
+        </div>
+        <div class="container">
+            <h3>Hello ! My name is </h3>
+            <h2>Bhavesh Taparia</h2>
+            <h3>I'm a Software engineer </h3>
+
+        </div>
+
+
+        <div class="tag">
+            <a href="https://www.linkedin.com/in/bhavesh-taparia-2790b5230?trk=public_profile_browsemap&originalSubdomain=in"
+                target="_blank"><img src="./image/linkedin.png" alt="linkedin" /></a>
+            <a href="https://github.com/bhaveshtaparia" target="_blank"><img src="./image/github.png"
+                    alt="github" /></a>
+            <a href="https://www.codechef.com/users/cu_21bcs11461" target="_blank"><img src="./image/codechef.png"
+                    alt="codechef" /></a>
+            <a href="https://auth.geeksforgeeks.org/user/bhaveshtaparia7821/practice" target="_blank"><img
+                    src="./image/gfg.png" alt="gfg" /></a>
+            <a href="https://leetcode.com/Bhavesh_Taparia/" target="_blank"><img src="./image/leetcode.png"
+                    alt="leetcode" /></a>
+        </div>
+    </div>
+    <div class="bg2">
+
+        <h2 class="heading">Education</h2>
+        <div id="education">
+            <div class="box b1">
+                <p>B.E. Branch- Computer Science and
+                    Engineering
+                    Chandigarh University, Mohali</p>
+                <p>2021 - 2025, Current Cgpa 8.18</p>
+            </div>
+            <div class="box b2">
+                <p>
+                    12th Standard-
+                    SH RGG SS ADARSH VM SR
+                    SEC SCH,
+                    SUJANGARH(CHURU)
+                </p>
+                <p>
+                    Percentage- 86%
+                </p>
+            </div>
+            <div class="box b3">
+                <p>10th Standard-
+                    Adarsh V M SEC SCH , CHHAPAR(CHURU)</p>
+                <p>
+                    Percentage-89.33
+                </p>
+            </div>
+        </div>
+        <h2 class="heading">Skills</h2>
+        <div id="skills">
+            <ul>
+                <li>DATA STRUCTURES</li>
+                <li>C++</li>
+                <li>JAVA</li>
+                <li>JAVASCRIPT</li>
+                <li>PYTHON</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>REACT JS</li>
+                <li>NODE JS</li>
+                <li>EXPRESS JS</li>
+                <li>SQL
+                <li>GIT AND GITHUB</li>
+            </ul>
+        </div>
+        <h2 class="heading">Project</h2>
+        <div id="project">
+            <div class="p1">
+                <h2><a target="_blank" href="https://github.com/bhaveshtaparia/Ecommerce">Ecommerce Website (02/2023 -
+                        04/2023)</a></h2>
+                <br>
+                <p>
+                    Developed an Ecommerce Website using Mern Stack containing
+                    both User and Admin Part.<br>
+                    User Functionality- User is able to Update Profile , Add product to
+                    Cart , Place The Order and can review the product.<br>
+                    Admin Functionality:- Create ,Update and delete The Product and
+                    can also update the functionality of the user.
+                </p>
+            </div>
+            <div class="p2">
+                <h2><a target="_blank" href="https://vgb.netlify.app/">VGB</a></h2>
+                <br>
+                <p>React App Which is Used to Share the Knowledge of web
+                    development and App development.<br>
+                    App/Website contains Java code for Creating Some Apps Like:
+                    Calculator, rock-paper-scissors game and VGb app.<br>
+                    App also Contains Some basic website With javascript code (
+                    TextUtils7 )
+                </p>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="contact">
+
+                <h2 style="margin-bottom: 7vh;">Contact Us</h2>
+                <!-- <form method="post" action="http://localhost:5000/api/v1/contact/create"> -->
+                <form>
+
+                    <input required type="text" name="name" id="name" placeholder="Enter Your Name">
+
+                    <input required type="email" name="email" id="email" placeholder="Enter Your Email">
+
+                    <input required type="number" name="number" id="number" placeholder="Enter Your Phone Number">
+
+                    <textarea required name="reason" placeholder="Why You Want To Contact Me ">Reason</textarea>
+
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
